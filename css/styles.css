@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(185, 159, 159);
+    font-family: 'Heebo', sans-serif;
+}
+
+#container {
+    position: relative;
+    min-height: 100px;
+    max-width: 600px;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    margin: 0 auto;
+}
+
+table {
+    border-radius: 2px black dashed;
+}
+
+#skip {
+    opacity: 0;
+}
+
+#skip:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+#one, #two, #three {
+    max-width: 150px;
+    border: 2px black solid;
+}
+
+form {
+    max-width: 200px;
+    border: 2px black solid;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+    <title>Ethan's Donut Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+    </style>
+  </head>
+  <body>
+   <div id="container">
+   <header id="title">
+    <a href="#main" id="skip">Skip to main Content</a>
+    <h1>Ethan&apos;s Donut Shop</h1>
+    <p>Welcome to my Donut Shop! Open 24/7 from 9am to 8pm.</p>
+    <img src="images/donuts.png">
+    <nav>
+     <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+     </ul>
+    </nav>
+   </header>
+   <hr>
+   <main id="main">
+   <section id="about">
+    <h2>About us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+   </section>
+   <section id="menu">
+    <h2>Our menu</h2>
+    <table border="1">
+     <tr>
+     <th>
+      Donuts
+      <td>Chocolate</td>
+      <td>Strawberry</td>
+      <td>Blueberry</td>
+      <td>Cookies &apos;N&apos; Cream</td>
+      <td>Glaze</td>
+     </th>
+     </tr>
+     <tr>
+      <th>
+       Toppings
+       <td>Glaze</td>
+       <td>Bacon bits</td>
+       <td>Chocolate Chips</td>
+       <td>M&amp;M&apos;s</td>
+       <td>Peanut Butter Glaze</td>
+      </th>
+     </tr>
+    </table>
+   </section>
+   <section id="reviews">
+    <h2>Reviews</h2>
+    <div id="reviews">
+     <p id="one">&quot;Some great quote!&quot; <br> Satisfied Customer</p>
+     <p id="two">&quot;Some great quote!&quot; <br> Satisfied Customer</p>
+     <p id="three">&quot;Some great quote!&quot; <br> Satisfied Customer</p>
+    </div>
+   </section>
+   <section id="contact">
+    <h2>Questions? Contact us!</h2>
+    <p>Call us at</p>
+    <p>000-000-0000</p>
+    <p>Or reach us via email</p>
+    <form>
+      <p><strong>Email:</strong></p>
+      <input type="text" placeholder="email@email.com">
+      <p><strong>Name:</strong></p>
+      <input type="text" placeholder="John Doe">
+      <p><strong>Message:</strong></p>
+      <input type="text" placeholder="Hello!">
+      <br>
+      <input type="submit" onclick="alert('Thanks for viewing! Your message has been submitted (No, not really).')">
+    </form>
+   </section>
+   </main>
+   <hr>
+   <aside>
+    <footer>
+      <a href="#title">Back to Top</a>
+      <p>&copy; Copyright <span id="year"></span></p>
+    </footer>
+   </aside>
+   </div>
+   <script>
+    var year = new Date().getFullYear();
+    var print = document.getElementById("year")
+    print.innerHTML = year;
+   </script>
+  </body>
+ </html>
